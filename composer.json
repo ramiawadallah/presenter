@@ -1,5 +1,5 @@
 {
-    "name": "Awadallah/presenter",
+    "name": "awadallah/presenter",
     "description": "Simple view presenter library for Laravel.",
     "keywords": ["view", "presenter", "decorator", "laravel"],
     "license": "MIT",
