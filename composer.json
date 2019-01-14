@@ -1,0 +1,27 @@
+{
+    "name": "Awadallah/presenter",
+    "description": "Simple view presenter library for Laravel.",
+    "keywords": ["view", "presenter", "decorator", "laravel"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rami Awadallah",
+            "email": "rami.moh.awadallah@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.1.3",
+        "illuminate/support": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*|5.7.*"
+    },
+    "require-dev": {
+        "illuminate/pagination": "5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*|5.7.*",
+        "phpunit/phpunit": "~4.0",
+        "mockery/mockery": "~0.9",
+        "squizlabs/php_codesniffer": "~2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Awadallah\\Presenter\\": "src"
+        }
+    }
+}
