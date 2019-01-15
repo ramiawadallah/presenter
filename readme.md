@@ -16,7 +16,7 @@ Or in your `composer.json`:
 ```json
 {
     "require": {
-        "Awadallah/presenter": "0.1.*"
+        "awadallah/presenter": "0.1.*"
     }
 }
 ```
