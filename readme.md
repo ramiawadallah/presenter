@@ -8,7 +8,7 @@ There are [several](https://github.com/laravel-auto-presenter/laravel-auto-prese
 You can install this package using Composer:
 
 ```
-$ composer require Awadallah/presenter
+$ composer require ramiawadallah/presenter
 ```
 
 Or in your `composer.json`:
@@ -16,7 +16,7 @@ Or in your `composer.json`:
 ```json
 {
     "require": {
-        "awadallah/presenter": "0.1.*"
+        "ramiawadallah/presenter": "0.1.*"
     }
 }
 ```
@@ -25,7 +25,7 @@ Once you've run `composer update` you'll need to register the **service provider
 
 ```php
 'providers' => [
-    Awadallah\Presenter\PresenterServiceProvider::class
+    Ramiawadallah\Presenter\PresenterServiceProvider::class
 ]
 ```
 
@@ -36,7 +36,7 @@ Once you've run `composer update` you'll need to register the **service provider
 There's several ways to configure your presenters. First, you can utilize the configuration file, which can be published using the following command:
 
 ```
-$ php artisan vendor:publish --provider="Awadallah\Presenter\PresenterServiceProvider"
+$ php artisan vendor:publish --provider="Ramiawadallah\Presenter\PresenterServiceProvider"
 ```
 
 There are no presenters configured by default. The published file merely contains an explanation on how to configure your presenters. You must provide an array of
@@ -68,7 +68,7 @@ $this->app['decorator']->register(\App\User::class, \App\Presenters\UserPresente
 
 #### Creating Presenters
 
-A presenter should extend from `Awadallah\Presenter\AbstractPresenter`, however, it is *NOT* required, but highly recommended, as you'll have access to several
+A presenter should extend from `Ramiawadallah\Presenter\AbstractPresenter`, however, it is *NOT* required, but highly recommended, as you'll have access to several
 methods and magic methods that provide some useful functionality.
 
 I like to keep my presenters within a `Presenters` folder, however, you may organize things in whichever way you prefer.
@@ -76,7 +76,7 @@ I like to keep my presenters within a `Presenters` folder, however, you may orga
 ```php
 namespace App\Presenters;
 
-use Awadallah\Presenter\AbstractPresenter;
+use Ramiawadallah\Presenter\AbstractPresenter;
 
 class UserPresenter extends AbstractPresenter
 {
@@ -92,7 +92,7 @@ you call the parent constructor.
 namespace App\Presenters;
 
 use App\SomeNamespace\SomeClass;
-use Awadallah\Presenter\AbstractPresenter;
+use Ramiawadallah\Presenter\AbstractPresenter;
 
 class UserPresenter extends AbstractPresenter
 {

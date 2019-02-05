@@ -1,8 +1,8 @@
 <?php
 
-namespace Awadallah\Presenter;
+namespace Ramiawadallah\Presenter;
 
-use Awadallah\Presenter\Decorator;
+use Ramiawadallah\Presenter\Decorator;
 use Illuminate\Support\ServiceProvider;
 
 class PresenterServiceProvider extends ServiceProvider

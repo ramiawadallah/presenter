@@ -1,6 +1,6 @@
 <?php
 
-namespace Awadallah\Presenter;
+namespace Ramiawadallah\Presenter;
 
 use ArrayAccess;
 use RuntimeException;

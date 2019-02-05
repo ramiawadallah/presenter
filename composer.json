@@ -1,5 +1,5 @@
 {
-    "name": "awadallah/presenter",
+    "name": "ramiawadallah/presenter",
     "description": "Simple view presenter library for Laravel.",
     "keywords": ["view", "presenter", "decorator", "laravel"],
     "license": "MIT",
@@ -21,7 +21,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Awadallah\\Presenter\\": "src"
+            "Ramiawadallah\\Presenter\\": "src"
         }
     }
 }

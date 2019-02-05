@@ -1,6 +1,6 @@
 <?php
 
-namespace Awadallah\Presenter;
+namespace Ramiawadallah\Presenter;
 
 use Illuminate\Support\Collection;
 use Illuminate\Database\Eloquent\Model;
@@ -141,7 +141,7 @@ class Decorator
      *
      * @param object $object
      *
-     * @return \Awadallah\Presenter\AbstractPresenter
+     * @return \Ramiawadallah\Presenter\AbstractPresenter
      */
     protected function getBinding($object)
     {
